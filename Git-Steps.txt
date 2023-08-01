@@ -1,0 +1,18 @@
+Steps to activate git in PyCharm:-
+
+1. Go to PyCharm menu bar
+2. click on VCS
+3. Enable Version Control Integration
+4. Select a version control -> choose git
+
+5. To see the .git folder used for staging -> right click on project name in PyCharm -> Open In -> Explorer (to see the root directory path)
+6. To see the hidden folders in directory -> View -> show -> Hidden folder -> .git folder will appear.
+
+7. create a new file -> new_file.py -> git will ask us -> "do you want to add the following file to Git?" -> You can Add it
+8. In 7th step if you press cancel -> you want to add the file later -> Right click on that file name -> Git -> Add.
+
+9. go to commit tab -> it is present under project tab -> you will find changes and unversioned files
+10. files under changes or files with green txt color are in staging area and (not committed yet or not in repo currently)
+11. files under unversioned files -> present in red txt color -> they are not even in repo or neither in staging area
+12. select the files that you want to commit by selecting checkboxes before file names
+13. write a message in blank space that contains message "Commit Message".
