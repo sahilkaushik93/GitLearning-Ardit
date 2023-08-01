@@ -1,21 +1,39 @@
 Steps to activate git in PyCharm:-
 
+{Part 1}
 1. Go to PyCharm menu bar
 2. click on VCS
 3. Enable Version Control Integration
 4. Select a version control -> choose git
 
+{Part 2}
 5. To see the .git folder used for staging -> right click on project name in PyCharm -> Open In -> Explorer (to see the root directory path)
 6. To see the hidden folders in directory -> View -> show -> Hidden folder -> .git folder will appear.
 
+{Part 3}
 7. create a new file -> new_file.py -> git will ask us -> "do you want to add the following file to Git?" -> You can Add it
-8. In 7th step if you press cancel -> you want to add the file later -> Right click on that file name -> Git -> Add.
+8. In 7th step if you press cancel -> you want to add the file later -> Right-click on that file name -> Git -> Add.
 
+{Part 4}
 9. go to commit tab -> it is present under project tab -> you will find changes and unversioned files
 10. files under changes or files with green txt color are in staging area and (not committed yet or not in repo currently)
 11. files under unversioned files -> present in red txt color -> they are not even in repo or neither in staging area
 12. select the files that you want to commit by selecting checkboxes before file names
 13. write a message in blank space that contains message "Commit Message".
-14. you can go to project -> now files are not in green -> but if you do some change in files they will come back to blue color i.e. staging area
+14. you can go to project -> now files are not in green -> but if you do some change in files they will come back to
+    blue color i.e. staging area
     (it means changes are yet to be committed)
-15.
+
+{Part 5}
+[Git option available on left bottom]
+15. to see commit history got git tab present in bottom left of PyCharm -> Log will have commit history
+    & Console will have commands executed history
+16. Here to reset back to one of the previous commit -> right-click on the commit present in Log(step 15) -> reset current branch to here
+17.to perform revert to one of the versions instead of resetting it -> settings -> version control -> background -> check perform revert in background
+18. in reset, we get back our previous version file, and we lose track of that file as well but in revert file option we get our previous versioned
+    file without loosing track of all our commits.
+19. we can see the versions and reverted versions in Git(left bottom) -> Log
+
+{Part 6}
+20. by adding .gitignore file you can add unversioned file that you do want to commit
+21. right click project -> add file -> .gitignore -> add to git -> add unversioned files
