@@ -28,12 +28,17 @@ Steps to activate git in PyCharm:-
 [Git option available on left bottom]
 15. to see commit history got git tab present in bottom left of PyCharm -> Log will have commit history
     & Console will have commands executed history
-16. Here to reset back to one of the previous commit -> right-click on the commit present in Log(step 15) -> reset current branch to here
-17.to perform revert to one of the versions instead of resetting it -> settings -> version control -> background -> check perform revert in background
-18. in reset, we get back our previous version file, and we lose track of that file as well but in revert file option we get our previous versioned
-    file without loosing track of all our commits.
+16. Here to reset back to one of the previous commit -> right-click on the commit present in Log(step 15) -> reset current
+    branch to here
+17.to perform revert to one of the versions instead of resetting it -> settings -> version control -> background -> check
+    perform revert in background
+18. in reset, we get back our previous version file, and we lose track of that file as well but in revert file option we
+    get our previous versioned file without loosing track of all our commits.
 19. we can see the versions and reverted versions in Git(left bottom) -> Log
 
 {Part 6}
 20. by adding .gitignore file you can add unversioned file that you do want to commit
 21. right click project -> add file -> .gitignore -> add to git -> add unversioned files
+22. now if you create one new file -> new_file3.py -> do not add in git -> unversioned files -> you will observe that ->
+    all files that you added in .gitignore -> are completely ignored by git and only new_file3.py is present in unversioned files
+23.
