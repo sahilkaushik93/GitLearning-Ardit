@@ -16,3 +16,5 @@ Steps to activate git in PyCharm:-
 11. files under unversioned files -> present in red txt color -> they are not even in repo or neither in staging area
 12. select the files that you want to commit by selecting checkboxes before file names
 13. write a message in blank space that contains message "Commit Message".
+14. you can go to project -> now files are not in green -> but if you do some change in files they will come back to blue color i.e. staging area
+    (it means changes are yet to be committed)
