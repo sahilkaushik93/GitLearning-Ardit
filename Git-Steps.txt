@@ -15,7 +15,8 @@ Steps to activate git in PyCharm:-
 8. In 7th step if you press cancel -> you want to add the file later -> Right-click on that file name -> Git -> Add.
 
 {Part 4}
-9. go to commit tab -> it is present under project tab -> you will find changes and unversioned files
+9. go to commit tab -> it is present under project tab(upper left tab, present vertically under project tab) ->
+    you will find changes and unversioned files
 10. files under changes or files with green txt color are in staging area and (not committed yet or not in repo currently)
 11. files under unversioned files -> present in red txt color -> they are not even in repo or neither in staging area
 12. select the files that you want to commit by selecting checkboxes before file names
@@ -40,5 +41,22 @@ Steps to activate git in PyCharm:-
 20. by adding .gitignore file you can add unversioned file that you do want to commit
 21. right click project -> add file -> .gitignore -> add to git -> add unversioned files
 22. now if you create one new file -> new_file3.py -> do not add in git -> unversioned files -> you will observe that ->
-    all files that you added in .gitignore -> are completely ignored by git and only new_file3.py is present in unversioned files
-23.
+    all files that you added in .gitignore -> are completely ignored by git and only new_file3.py is present in unversioned
+    files
+
+{Part 7: Push - uploading changes to GitHub.com}
+23. open settings -> version control -> GitHub -> click Add Account or "+" sign at bottom -> Log in via GitHub ->
+    Authorize in GitHub (JetBrains windows)
+24. now to push -> option 1: VCS -> push
+                    option 2: there's a tick icon in upper right corner of PyCharm window(green color, upward arrow)
+25. master -> Define remote: add URL of your repository.
+26. All files to be added in repo will come in green color -> Push
+
+{Part 8: Pull - Cloning a repository}
+27. Copy repo url present under HTTPS tab in GitHub
+28. VCS -> Get from version control
+29. paste URL and set directory where you want to save this project -> Clone
+30. to add interpreter -> go to settings -> Project: Project name -> Python interpreter -> select an interpreter
+
+{Part 9: requirements.txt}
+31. Project -> right click -> new file -> requirements.txt -> Add in repo -> Add imported packages in requirements.txt
