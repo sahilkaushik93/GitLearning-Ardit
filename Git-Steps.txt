@@ -60,3 +60,5 @@ Steps to activate git in PyCharm:-
 
 {Part 9: requirements.txt}
 31. Project -> right click -> new file -> requirements.txt -> Add in repo -> Add imported packages in requirements.txt
+32. Now after cloning this project -> user will get a pop-up in pycharm -> Package requirement is not satisfied ->
+    install requirements
